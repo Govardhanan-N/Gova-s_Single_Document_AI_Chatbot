@@ -1,0 +1,13 @@
+streamlit==1.29.0  # Or the version you are currently using
+langchain==0.1.0  # Or the version you are currently using
+langchain_community==0.0.19  # Or the version you are currently using
+sentence-transformers==2.2.2  # For the embedding model
+transformers==4.35.2
+pypdf==3.17.3 #For Pdf reader
+python-docx==1.1.0 #For Docx reader
+chromadb==0.4.22 #Vector DB
+torch # needed for sentence-transformers
+accelerate # needed for sentence-transformers
+
+# Optional (but recommended for Ollama setup)
+requests # Useful for interacting with the Ollama API directly if needed
